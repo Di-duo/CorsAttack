@@ -29,13 +29,8 @@
 4. 漏洞等级分类：
    - （为了方便区分显示高危）高危：服务器响应头反射了Origin头的值
    - 低危：服务器响应头包含`Access-Control-Allow-Origin: *`
+<img width="1539" alt="image" src="https://github.com/user-attachments/assets/8f389ba2-219c-4fb1-ac63-12b800a55a84" />
 
-## 技术实现
-
-- 基于Burp Suite扩展API开发
-- 实现了IBurpExtender和IHttpListener接口
-- 使用Java语言开发，确保跨平台兼容性
-- 内置5秒请求间隔的限流机制
 
 ## 注意事项
 
